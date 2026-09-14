@@ -30,8 +30,8 @@ jobs:
 
       - name: Generate Calendar
         run: |
-          python generate_calendar.py
-
+          python generate_skyfield_calendar.py
+    
       - name: Commit Changes
         run: |
           git config user.name github-actions
